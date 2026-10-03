@@ -30,7 +30,7 @@ const Products = () => {
                                             {product.name}
                                         </span>
                                         <div className="product-image">
-                                            <img src={product.image} />
+                                            <img src={product.image} alt="product image" />
                                         </div>
                                         <span className="product-price">
                                             {product.price}
